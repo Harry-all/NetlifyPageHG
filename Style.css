@@ -89,3 +89,21 @@
     @media (max-width:880px){
       main{ grid-template-columns: 1fr; }
     }
+.card{
+      background: linear-gradient(180deg,#fff,#fbfdff);
+      border-radius:var(--radius);
+      padding:16px;
+      box-shadow: 0 6px 18px rgba(2,6,23,0.04);
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:10px;
+    }
+
+    .section-title h2{
+      margin:0;
+      font-size:1.05rem;
+    }
