@@ -71,3 +71,21 @@
       font-size:0.95rem;
       margin-top:4px;
     }
+    .badge{
+      background:var(--glass);
+      padding:8px 12px;
+      border-radius:999px;
+      font-weight:600;
+      color:var(--accent);
+      border:1px solid rgba(37,99,235,0.08);
+    }
+
+    main{
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:18px;
+    }
+
+    @media (max-width:880px){
+      main{ grid-template-columns: 1fr; }
+    }
